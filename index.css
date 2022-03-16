@@ -30,7 +30,7 @@
   position: absolute;
   height: 12px;
   background: #6070ff;
-  right: -20%;
+  right: -100px;
 }
 
 .background {
@@ -124,7 +124,7 @@
 .left_rectangle {
   position: relative;
   top: 200px;
-  left: 40%;
+  left: 220px;
   transform: rotate(20deg);
 }
 
@@ -137,12 +137,12 @@
 .circle {
   position: relative;
   top: 450px;
-  left: 10%;
+  left: 100px;
 }
 
 .rectangle {
   position: relative;
   top: 30px;
   transform: scale(0.3, 0.3);
-  left: -35%;
+  left: -150px;
 }
