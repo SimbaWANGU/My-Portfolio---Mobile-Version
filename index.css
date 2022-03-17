@@ -38,6 +38,7 @@
   width: 375px;
   height: 480px;
   top: 119px;
+  margin: 1px, 1px, 1px, 1px;
 }
 
 .background .intro_class {
@@ -105,13 +106,17 @@
 }
 
 .background .intro_class .social_media_icons {
+  position: relative;
   display: flex;
   flex-direction: row;
-  height: 22.5px;
+  list-style-type: none;
+  left: -46px;
+  top: -30px;
 }
 
 .background .intro_class .social_media_icons .icons {
   margin: 2px 7px;
+  left: -25px;
 }
 
 .left_ellipse {
