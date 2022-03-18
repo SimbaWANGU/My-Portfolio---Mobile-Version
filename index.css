@@ -1,3 +1,15 @@
+.mobile_background {
+  background: #f6f6f6;
+  max-width: 482px;
+}
+
+.home_page_container {
+  height: 600px;
+  width: 482px;
+  background-color: white;
+  border-radius: 1px 1px 1px 100px;
+}
+
 .toolbar_class {
   position: absolute;
   display: flex;
