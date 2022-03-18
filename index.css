@@ -7,7 +7,7 @@
   height: 600px;
   width: 482px;
   background-color: white;
-  border-radius: 0px 0px 0px 100px;
+  border-radius: 1px 1px 1px 100px;
 }
 
 .toolbar_class {
@@ -199,11 +199,11 @@
   font-weight: bolder;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px 1px;
   left: 20px;
   top: -30px;
 }
@@ -224,7 +224,7 @@
 
 .list_items_text {
   font-style: normal;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 18px;
   line-height: 16px;
   color: #344563;
@@ -232,7 +232,7 @@
 
 .list_items_text_other {
   font-style: normal;
-  font-weight: 600px;
+  font-weight: 600;
   font-size: 18px;
   line-height: 16px;
   color: #7a869a;
@@ -247,7 +247,7 @@
   position: relative;
   top: -120px;
   font-size: 22px;
-  font-weight: 400px;
+  font-weight: 400;
   line-height: 24px;
   font-style: normal;
   color: #344563;
@@ -304,7 +304,7 @@
   position: static;
   font-style: normal;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
@@ -320,8 +320,7 @@
   width: 482px;
   height: 1200px;
   background-color: white;
-  border-radius: 0px 100px 0px 0px;
-
+  border-radius: 1px 100px 1px 1px;
 }
 
 .aboutme_container .aboutme_class {
@@ -419,7 +418,7 @@
   position: static;
   font-style: normal;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
@@ -449,7 +448,7 @@
 .technology_and_skills_text {
   font-style: normal;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 24px;
   line-height: 24px;
   letter-spacing: 0.03em;
