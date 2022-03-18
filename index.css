@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;300;400;500&display=swap');
+
 .mobile_background {
   background: #f6f6f6;
   max-width: 482px;
@@ -30,7 +32,7 @@
   height: 20px;
   left: 12px;
   top: 10px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -68,7 +70,7 @@
   position: static;
   width: 95%;
   height: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -89,10 +91,10 @@
   width: 95%;
   height: 70%;
   top: 1px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
   color: #344563;
   flex: none;
@@ -105,7 +107,7 @@
   position: static;
   width: 95%;
   height: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -177,6 +179,8 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .grid {
@@ -194,7 +198,7 @@
 
 .project_title {
   position: relative;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bolder;
   font-size: 32px;
@@ -253,7 +257,7 @@
   color: #344563;
   margin-left: 20px;
   letter-spacing: 0.01em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .technology_used {
@@ -280,9 +284,10 @@
 .technology_text {
   letter-spacing: 00.03em;
   font-style: normal;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 16px;
   font-size: 12px;
+  font-weight: 500;
   color: #6070ff;
 }
 
@@ -293,19 +298,37 @@
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 12px;
   align-items: center;
   margin-left: 20px;
   background-color: white;
   font-style: normal;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 32px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+  transition-duration: 0.2s;
+}
+
+.project_button:hover {
+  border: 1px solid #6070ff;
+  background-color: #6070ff;
+  color: white;
+}
+
+.project_button:active {
+  border: 1px solid #2230d2;
+  background-color: #2230d2;
+  color: white;
+}
+
+.project_button :disabled {
+  border: 1px solid #2230d2;
+  background-color: white;
+  color: #5e6c84;
 }
 
 .aboutme_container {
@@ -333,7 +356,7 @@
   position: static;
   width: 95%;
   height: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -354,7 +377,7 @@
   width: 95%;
   height: 70%;
   top: 1px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -370,7 +393,7 @@
   position: static;
   width: 95%;
   height: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -402,18 +425,35 @@
   border: 1px solid #6070ff;
   box-sizing: border-box;
   border-radius: 8px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 12px;
   align-items: center;
   background-color: white;
   font-style: normal;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 32px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+}
+
+.resume_button:hover {
+  border: 1px solid #6070ff;
+  background-color: #6070ff;
+  color: white;
+}
+
+.resume_button:active {
+  border: 1px solid #2230d2;
+  background-color: #2230d2;
+  color: white;
+}
+
+.resume_button :disabled {
+  border: 1px solid #2230d2;
+  background-color: white;
+  color: #5e6c84;
 }
 
 .technology_and_skills {
@@ -435,7 +475,7 @@
 
 .technology_and_skills_text {
   font-style: normal;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
@@ -452,6 +492,8 @@
   width: 350px;
   margin-bottom: 10px;
   margin-left: -30px;
+  position: relative;
+  top: -500px;
 }
 
 .language_image {
@@ -462,10 +504,51 @@
 .language_text {
   letter-spacing: 00.03em;
   font-style: normal;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+   line-height: 20px;
   font-size: 18px;
   color: #253858;
   top: 8px;
   position: relative;
+}
+
+.framework_text {
+  position: relative;
+  top: -500px;
+}
+
+.skills_text {
+  position: relative;
+  top: -1000px;
+}
+
+.hr_position {
+  position: relative;
+  top: -1010px;
+}
+
+.hr2_position {
+  position: relative;
+  top: -510px;
+}
+
+.vector {
+  position: relative;
+  transform: scale(0.04, 0.04);
+  left: 80px;
+  top: -280px;
+}
+
+.vector2 {
+  position: relative;
+  transform: scale(0.04, 0.04) rotate(270deg);
+  left: 80px;
+  top: -787px;
+}
+
+.vector3 {
+  position: relative;
+  transform: scale(0.04, 0.04) rotate(270deg);
+  top: -287px;
+  left: 80px;
 }
