@@ -406,20 +406,15 @@
   padding-right: 12px;
   align-items: center;
   background-color: white;
-}
-
-.resume_button_text {
-  position: static;
   font-style: normal;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
+  line-height: 32px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  
 }
 
 .technology_and_skills {
