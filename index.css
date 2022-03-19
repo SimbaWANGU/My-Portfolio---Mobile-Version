@@ -2,7 +2,7 @@
 
 .mobile_background {
   background: #f6f6f6;
-  max-width: 482px;
+  width: 482px;
 }
 
 .home_page_container {
@@ -169,18 +169,19 @@
 .works {
   height: 500px;
   margin-top: 200px;
+  width: 482px;
 }
 
 .works .project {
   background-color: white;
-  width: 445px;
+  width: 430px;
   border-radius: 40px;
   height: 630px;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .grid {
@@ -258,6 +259,7 @@
   margin-left: 20px;
   letter-spacing: 0.01em;
   font-family: 'Poppins', sans-serif;
+  width: 350px;
 }
 
 .technology_used {
@@ -334,7 +336,8 @@
 .aboutme_container {
   position: relative;
   top: 2500px;
-  width: 482px;
+  width: 480px;
+  left: -5px;
   height: 1200px;
   background-color: white;
   border-radius: 1px 100px 1px 1px;
@@ -355,7 +358,7 @@
 .aboutme_container .aboutme_class .identity_text {
   position: static;
   width: 95%;
-  height: 50px;
+  height: 30px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
