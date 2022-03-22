@@ -555,3 +555,136 @@
   top: -287px;
   left: 80px;
 }
+
+.contact_section {
+  position: relative;
+  top: 2700px;
+  width: 480px;
+  left: -5px;
+  height: 800px;
+  background-color: #6070ff;
+  border-radius: 100px 1px 1px 1px;
+}
+
+.contact {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactme_header {
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.contact_message {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  margin: 0 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 65px;
+  text-align: center;
+}
+
+.name-input {
+  width: 330px;
+  height: 24px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  margin: 20px 0 0 0;
+}
+
+.name-input::placeholder {
+  color: #172b4d;
+}
+
+.email-input {
+  width: 330px;
+  height: 24px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  margin: 20px 0 0 0;
+}
+
+.email-input::placeholder {
+  color: #172b4d;
+}
+
+.message-input {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 170px;
+  width: 330px;
+  padding: 10px;
+  margin: 20px 0 0 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.message-input::placeholder {
+  color: #b3bac5;
+}
+
+.submit_button {
+  width: 140px;
+  height: 48px;
+  left: 24px;
+  margin: 20px 0 0 0;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: white;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  transition-duration: 0.2s;
+  padding: 5px 5px;
+}
+
+.submit_button:hover {
+  border: 1px solid #cfd8dc;
+  background-color: #6070ff;
+  color: white;
+}
+
+.submit_button:active {
+  border: 1px solid #2230d2;
+  background-color: #2230d2;
+  color: white;
+}
