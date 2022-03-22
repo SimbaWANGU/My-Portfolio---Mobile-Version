@@ -1,19 +1,80 @@
-# My-Portfolio---Mobile-Version
-A mobile version portfolio containing the projects I have done and experience I have gained
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Built With
-HTML
-CSS
+# Portfolio: setup and mobile version skeleton
 
-# Getting Started
+> in this project 2:
+- Set up the linters for html & css.
+- Create a html - header & a main section & add a contact me section.
+
+
+## Built With 
+
+- Html
+- Css
+- VS Studio
+- Git Bash
+
+## Live Demo (if available)
+
+Not avalible 
+
+
+## Getting Started
+
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
+
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-To open this project, you need a browser installed
 
+### Setup
+- Set up the linter
 ### Install
-Download the project from the Github Repository
+
+### Usage
+
+### Run tests
+
+### Deployment
 
 
-# Author
-Github: @S-imba
+
+## Authors
+
+👤 **Simba Eugene**
+
+- GitHub: [@S-imba](https://github.com/S-imba)
+- Twitter: [@S_imba10](https://twitter.com/S_imba10)
+
+👤 **Ibrahim Ahmat**
+
+- GitHub: [@ibr5500](https://github.com/ibr5500/Portfolio/)
+- Twitter: [@ibr_ahmat](https://twitter.com/ibr_ahmat)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ibrahim-ahmat-b5513b1a6/)
+
+
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+⭐️⭐️⭐️⭐️⭐️
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration 
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
