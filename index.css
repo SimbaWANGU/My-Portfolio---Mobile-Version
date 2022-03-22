@@ -555,3 +555,41 @@
   top: -287px;
   left: 80px;
 }
+
+.contact_section {
+  position: relative;
+  top: 2700px;
+  width: 480px;
+  left: -5px;
+  height: 700px;
+  background-color: #6070FF;
+  border-radius: 100px 1px 1px 1px;
+}
+
+.contact {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactme_header {
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.contact_message {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #EBEBFF;
+  text-align: center;
+  margin: 0 40px;
+}
