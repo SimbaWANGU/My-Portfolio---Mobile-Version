@@ -47,6 +47,22 @@
   height: 12px;
   background: #6070ff;
   right: -100px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+}
+
+.span_class {
+  display: block;
+  position: relative;
+  left: 250px;
+  top: 5px;
+  font-size: 20px;
+}
+
+.navlist {
+  display: none;
 }
 
 .background {
@@ -319,7 +335,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
 }
 
 .project_button:hover {
@@ -446,6 +462,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+  transition-duration: 0.4s;
 }
 
 .resume_button:hover {
@@ -680,7 +697,7 @@ form {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
-  transition-duration: 0.2s;
+  transition-duration: 0.4s;
   padding: 5px 5px;
 }
 
@@ -703,7 +720,7 @@ form {
   }
 
   .home_page_container {
-    height: 600px;
+    height: 650px;
     width: 100%;
     background-color: white;
     border-radius: 1px 1px 1px 100px;
@@ -746,12 +763,41 @@ form {
     right: -100px;
   }
 
+  .span_class {
+    display: none;
+  }
+
+  .navlist {
+    position: relative;
+    list-style-type: none;
+    left: 400px;
+    display: flex;
+    flex-direction: row;
+    top: -5px;
+  }
+
+  .navlist-item {
+    margin: 0 30px;
+    text-decoration: none;
+  }
+
+  .navlist-item > a {
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+
   .background {
     position: absolute;
     width: 70%;
-    height: 480px;
+    height: 500px;
     top: 119px;
     margin: 1px 100px 1px 100px;
+    left: 100px;
   }
 
   .background .intro_class {
@@ -844,7 +890,7 @@ form {
   .left_rectangle {
     position: relative;
     top: 200px;
-    left: 100px;
+    left: 500px;
     transform: rotate(20deg);
   }
 
@@ -875,7 +921,7 @@ form {
   .works .project {
     background-color: white;
     width: 100%;
-    border-radius: 40px;
+    border-radius: 50px;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -897,6 +943,7 @@ form {
     margin-top: 80px;
     left: 10px;
     top: 160px;
+    padding: 7px;
   }
 
   .project_title {
@@ -1020,7 +1067,7 @@ form {
     text-align: center;
     letter-spacing: 0.03em;
     color: #396df2;
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
   }
 
   .project_button:hover {
@@ -1148,6 +1195,7 @@ form {
     text-align: center;
     letter-spacing: 0.03em;
     color: #396df2;
+    transition-duration: 0.4s;
   }
 
   .resume_button:hover {
@@ -1401,7 +1449,7 @@ form {
     text-align: center;
     letter-spacing: 0.03em;
     color: #396df2;
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
     padding: 5px 5px;
   }
 
