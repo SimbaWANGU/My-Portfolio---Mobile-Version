@@ -887,30 +887,30 @@ form {
     transform: scale(-0.4, -0.4);
   }
 
-  .left_rectangle {
+  .right_ellipse {
     position: relative;
     top: 200px;
-    left: 500px;
-    transform: rotate(20deg);
+    left: 485px;
+    transform: scale(0.8, 0.8) rotate(20deg);
   }
 
   .bottom_ellipse {
     position: relative;
-    top: 500px;
+    top: 400px;
     transform: scale(-0.4, -0.4);
     margin-left: 400px;
   }
 
   .circle {
     position: relative;
-    top: 450px;
+    top: 400px;
     left: 100px;
   }
 
   .rectangle {
     position: relative;
-    top: 30px;
-    transform: scale(0.3, 0.3);
+    top: -10px;
+    transform: scale(0.4, 0.4);
   }
 
   .works {
@@ -938,12 +938,12 @@ form {
   .project_img {
     position: relative;
     border-radius: 40px;
-    transform: scale(1, 1.05);
+    transform: scale(1, 1);
     max-width: 55%;
     margin-top: 80px;
-    left: 10px;
+    left: 5px;
     top: 160px;
-    padding: 7px;
+    padding: 24px;
   }
 
   .project_title {
