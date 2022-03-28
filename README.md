@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
-
+The application has been deployed using Github Pages and can be accessed from the following link: https://s-imba.github.io/My-Portfolio---Mobile-Version/
 
 
 ## Authors
