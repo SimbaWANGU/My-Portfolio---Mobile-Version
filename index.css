@@ -79,55 +79,45 @@
 
 .menu_item_container {
   position: fixed;
-  background: #6070FF;
-  width: 100%;
+  background: #6070ff;
+  width: 482px;
   height: 100%;
   top: 0;
   left: 0;
   z-index: 1;
-  
-  
-  
+  opacity: 0.9;
 }
 
 .navlist-item-mobile > a {
-
-  
-  /* Theme 1 / H3 */
-  
-  font-family: 'Poppins';
-  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   font-size: 60px;
   line-height: 100px;
-  /* or 138% */
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
-  
 }
-.menu_item-mobile{
 
+.menu_item-mobile {
   z-index: 2;
-  
 }
 
-.close_icon{
+.close_icon {
   width: 70px;
-height: 70px;
-float: right;
-margin: 40px;
+  height: 70px;
+  float: right;
+  margin: 10px;
 }
 
-.navlist-mobile{
- display: flex;
- flex-direction: column;
- align-items: flex-start;
- justify-content: flex-start;
- list-style: none;
- list-style-type: none;
- margin-top: 100px;
+.navlist-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  list-style: none;
+  list-style-type: none;
+  margin-top: 100px;
 }
 
 .background .intro_class {
