@@ -73,6 +73,9 @@
   margin: 1px 1px 1px 50px;
 }
 
+.show {
+  display: none;
+}
 
 .menu_item_container {
   position: fixed;
