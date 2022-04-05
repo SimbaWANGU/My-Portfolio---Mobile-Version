@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;300;400;500&display=swap');
 
 html{
-  max-width: 100%;
+  max-width: 100vw;
   overflow-x: hidden;
 }
 
 body{
   max-width: 100%;
-  overflow-x: hidden;
   background: #f6f6f6;
 }
 
@@ -20,6 +19,7 @@ body{
   width: 100vw;
   background-color: white;
   border-radius: 1px 1px 1px 100px;
+  overflow-x: hidden;
 }
 
 .blur {
@@ -141,7 +141,7 @@ body{
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
-  position: absolute;
+  position: relative;
   width: 80vw;
   height: 268px;
   margin-top: 10px;
@@ -169,7 +169,7 @@ body{
 
 .background .intro_class .description_text {
   position: static;
-  width: 95%;
+  width: 99%;
   height: 70%;
   top: 1px;
   font-family: 'Poppins', sans-serif;
@@ -227,7 +227,7 @@ body{
 .right_ellipse {
   position: relative;
   top: 50px;
-  left: 20vw;
+  left: 15vw;
   transform: scale(-0.4, -0.4) rotate(180deg);
 }
 
@@ -423,7 +423,6 @@ body{
   position: relative;
   top: 2500px;
   width: 100vw;
-  left: -5px;
   height: 1200px;
   background-color: white;
   border-radius: 1px 100px 1px 1px;
@@ -624,14 +623,12 @@ body{
 .vector {
   position: relative;
   transform: scale(0.04, 0.04);
-  left: 80px;
   top: -280px;
 }
 
 .vector2 {
   position: relative;
   transform: scale(0.04, 0.04) rotate(270deg);
-  left: 80px;
   top: -787px;
 }
 
@@ -639,7 +636,6 @@ body{
   position: relative;
   transform: scale(0.04, 0.04) rotate(270deg);
   top: -287px;
-  left: 80px;
 }
 
 .contact_section {

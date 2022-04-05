@@ -20,3 +20,10 @@ document.querySelectorAll('.navlist-item-mobile').forEach((link) => {
     })
   });
 });
+
+var scrollEventHandler = function()
+{
+  window.scroll(0, window.pageYOffset)
+}
+
+window.addEventListener("scroll", scrollEventHandler, false);
