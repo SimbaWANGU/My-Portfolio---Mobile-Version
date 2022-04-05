@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;300;400;500&display=swap');
 
-html{
+html {
   max-width: 100vw;
   overflow-x: hidden;
 }
 
-body{
+body {
   max-width: 100%;
   background: #f6f6f6;
 }
@@ -24,8 +24,7 @@ body{
 
 .blur {
   backdrop-filter: blur(4px);
-  
-          filter: blur(5px);
+  filter: blur(5px);
 }
 
 .toolbar_class {
@@ -99,7 +98,7 @@ body{
   z-index: 1;
   opacity: 0.9;
   overflow: hidden;
-  filter: blur(0px) !important;
+  filter: blur(0) !important;
 }
 
 .navlist-item-mobile > a {
