@@ -1,8 +1,7 @@
-
 document.querySelector('.span_class').addEventListener('click', () => {
   document.querySelector('.menu_item_container').classList.toggle('show');
   document.querySelectorAll('.mobile_background').forEach((section) => {
-  section.classList.toggle('blur');
+    section.classList.toggle('blur');
   });
 });
 document.querySelector('.close_icon').addEventListener('click', () => {
@@ -21,8 +20,8 @@ document.querySelectorAll('.navlist-item-mobile').forEach((link) => {
   });
 });
 
-function scrollEventHandler(){
+function scrollEventHandler() {
   window.scroll(0, window.pageYOffset);
-};
+}
 
 window.addEventListener('scroll', scrollEventHandler, false);
