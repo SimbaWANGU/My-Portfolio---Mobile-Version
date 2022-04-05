@@ -2,16 +2,18 @@
 
 .mobile_background {
   background: #f6f6f6;
-  width: 482px;
-  margin-left: 0;
-  margin-top: 0;
+  width: 131vw;
 }
 
 .home_page_container {
   height: 600px;
-  width: 482px;
+  width: 100%;
   background-color: white;
   border-radius: 1px 1px 1px 100px;
+}
+
+.blur {
+  filter: blur(10px);
 }
 
 .toolbar_class {
@@ -56,7 +58,7 @@
 .span_class {
   display: block;
   position: relative;
-  left: 300px;
+  left: 350px;
   top: 5px;
   font-size: 20px;
 }
@@ -80,12 +82,13 @@
 .menu_item_container {
   position: fixed;
   background: #6070ff;
-  width: 482px;
+  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   z-index: 1;
   opacity: 0.9;
+  overflow: hidden;
 }
 
 .navlist-item-mobile > a {
@@ -108,6 +111,7 @@
   height: 70px;
   float: right;
   margin: 10px;
+  left: -50px;
 }
 
 .navlist-mobile {
@@ -213,7 +217,7 @@
 .right_ellipse {
   position: relative;
   top: 50px;
-  left: 170px;
+  left: 200px;
   transform: scale(-0.4, -0.4) rotate(180deg);
 }
 
@@ -246,19 +250,19 @@
 .works {
   height: 500px;
   margin-top: 200px;
-  width: 482px;
+  width: 120vw;
 }
 
 .works .project {
   background-color: white;
-  width: 430px;
+  width: 100vw;
   border-radius: 40px;
   height: 630px;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 9vw;
+  margin-right: 5vw;
 }
 
 .grid {
@@ -414,7 +418,7 @@
 .aboutme_container {
   position: relative;
   top: 2500px;
-  width: 480px;
+  width: 119vw;
   left: -5px;
   height: 1200px;
   background-color: white;
@@ -638,8 +642,7 @@
 .contact_section {
   position: relative;
   top: 2700px;
-  width: 480px;
-  left: -5px;
+  width: 119vw;
   height: 800px;
   background-color: #6070ff;
   border-radius: 100px 1px 1px 1px;

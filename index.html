@@ -10,14 +10,14 @@
 </head>
 
 <body class="mobile_background">
-    <section class="home_page_container">
+    <section class="home_page_container" id="home_page_container">
         <header class="toolbar_class">
             <div class="logo_container">
                 <h1 class="logo_class">My Logo</h1>
             </div>
             <nav>
-              <span class="span_class">
-                <i class="fa-solid fa-bars"></i>
+              <span class="span_class" onclick=changeAppearance() on>
+                <i class="fa-solid fa-bars" onclick=changeAppearance()></i>
               </span>
               <ul class="navlist">
                   <li class="navlist-item">
@@ -32,7 +32,9 @@
               </ul>
             </nav>
             <div class="menu_item_container show">
-                <img class="close_icon" src="./assets/close.png" alt="close icon" >
+                <span class="close_icon" onclick="returnAppearanceToNormal()">
+                  <img src="./assets/close.png" alt="close icon" onclick="returnAppearanceToNormal()">
+                </span> 
                 <div class="menu_item-mobile">
                 <ul class="navlist-mobile">
                     <li class="navlist-item-mobile">
