@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;300;400;500&display=swap');
 
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body{
+  max-width: 100%;
+  overflow-x: hidden;
   background: #f6f6f6;
 }
 
@@ -10,7 +17,7 @@ body{
 
 .home_page_container {
   height: 600px;
-  width: 120%;
+  width: 100vw;
   background-color: white;
   border-radius: 1px 1px 1px 100px;
 }
@@ -25,21 +32,20 @@ body{
   position: absolute;
   display: flex;
   flex-direction: row;
-  width: 375px;
+  width: 100vw;
   align-items: center;
 }
 
 .toolbar_class .logo_container {
   align-items: center;
   position: relative;
-  left: 12px;
-  width: 40%;
+  width: 20%;
+  margin-left: 5vw;
 }
 
 .toolbar_class .logo_container .logo_class {
   position: static;
   height: 20px;
-  left: 12px;
   top: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -57,13 +63,13 @@ body{
   display: flex;
   flex-direction: row;
   background-color: white;
-  width: 100%;
+  width: 20vw;
 }
 
 .span_class {
   display: block;
   position: relative;
-  left: 350px;
+  left: 60vw;
   top: 5px;
   font-size: 20px;
 }
@@ -74,10 +80,9 @@ body{
 
 .background {
   position: absolute;
-  width: 375px;
+  width: 100vw;
   height: 480px;
   top: 119px;
-  margin: 1px 1px 1px 50px;
 }
 
 .show {
@@ -87,7 +92,7 @@ body{
 .menu_item_container {
   position: fixed;
   background: #6070ff;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   top: 0;
   left: 0;
@@ -114,7 +119,7 @@ body{
 }
 
 .close_icon {
-  width: 70px;
+  width: 10vw;
   height: 70px;
   float: right;
   margin: 10px;
@@ -137,14 +142,14 @@ body{
   align-items: flex-start;
   padding: 20px;
   position: absolute;
-  width: 90%;
+  width: 80vw;
   height: 268px;
   margin-top: 10px;
 }
 
 .background .intro_class .identity_text {
   position: static;
-  width: 95%;
+  width: 95vw;
   height: 30px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -181,7 +186,6 @@ body{
 
 .background .intro_class .connect_text {
   position: static;
-  width: 95%;
   height: 40px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -211,7 +215,6 @@ body{
 
 .background .intro_class .social_media_icons .icons {
   margin: 2px 7px;
-  left: -25px;
 }
 
 .left_ellipse {
@@ -224,51 +227,45 @@ body{
 .right_ellipse {
   position: relative;
   top: 50px;
-  left: 200px;
+  left: 20vw;
   transform: scale(-0.4, -0.4) rotate(180deg);
-}
-
-.left_rectangle {
-  position: relative;
-  top: 200px;
-  left: 220px;
-  transform: rotate(20deg);
 }
 
 .bottom_ellipse {
   position: relative;
-  top: 380px;
+  top: 330px;
+  left: 40vw;
   transform: scale(-0.4, -0.4);
 }
 
 .circle {
   position: relative;
-  top: 300px;
-  left: 1px;
+  top: 270px;
+  left: 15vw;
 }
 
 .rectangle {
   position: relative;
   top: -200px;
   transform: scale(0.3, 0.3);
-  left: 140px;
+  left: 20vw;
 }
 
 .works {
   height: 500px;
   margin-top: 200px;
-  width: 120vw;
+  width: 100vw;
 }
 
 .works .project {
   background-color: white;
-  width: 100vw;
+  width: 90vw;
   border-radius: 40px;
   height: 630px;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin-left: 9vw;
+  margin-left: 5vw;
   margin-right: 5vw;
 }
 
@@ -281,7 +278,7 @@ body{
 .project_img {
   position: relative;
   border-radius: 40px;
-  transform: scale(0.9, 0.8);
+  transform: scale(0.9, 0.7);
   margin-top: 80px;
 }
 
@@ -299,7 +296,7 @@ body{
   margin: 12px 1px;
   left: 20px;
   top: -30px;
-  width: 300px;
+  width: 60vw;
 }
 
 .project_details {
@@ -312,7 +309,7 @@ body{
 
 .project_details .list_items {
   position: relative;
-  left: -25px;
+  left: -7vw;
   margin: 10px;
 }
 
@@ -348,7 +345,7 @@ body{
   margin-left: 20px;
   letter-spacing: 0.01em;
   font-family: 'Poppins', sans-serif;
-  width: 350px;
+  width: 80vw;
 }
 
 .technology_used {
@@ -425,7 +422,7 @@ body{
 .aboutme_container {
   position: relative;
   top: 2500px;
-  width: 119vw;
+  width: 100vw;
   left: -5px;
   height: 1200px;
   background-color: white;
@@ -438,7 +435,7 @@ body{
   align-items: flex-start;
   padding: 20px;
   position: absolute;
-  width: 90%;
+  width: 50vw;
   height: 268px;
   margin-top: 90px;
   margin-left: 10px;
@@ -446,7 +443,7 @@ body{
 
 .aboutme_container .aboutme_class .identity_text {
   position: static;
-  width: 95%;
+  width: 90vw;
   height: 30px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -466,7 +463,7 @@ body{
 
 .aboutme_container .aboutme_class .description_text {
   position: static;
-  width: 95%;
+  width: 85vw;
   height: 70%;
   top: 1px;
   font-family: 'Poppins', sans-serif;
@@ -483,7 +480,6 @@ body{
 
 .aboutme_container .aboutme_class .connect_text {
   position: static;
-  width: 95%;
   height: 40px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -560,7 +556,7 @@ body{
   position: relative;
   margin-left: -60px;
   text-align: start;
-  width: 410px;
+  width: 80vw;
   object-fit: contain;
   padding-left: 20px;
   padding-right: 20px;
@@ -582,7 +578,7 @@ body{
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  width: 350px;
+  width: 80vw;
   margin-bottom: 10px;
   margin-left: -30px;
   position: relative;
@@ -649,7 +645,7 @@ body{
 .contact_section {
   position: relative;
   top: 2700px;
-  width: 119vw;
+  width: 100vw;
   height: 800px;
   background-color: #6070ff;
   border-radius: 100px 1px 1px 1px;
@@ -691,7 +687,7 @@ form {
 }
 
 .name-input {
-  width: 330px;
+  width: 60vw;
   height: 24px;
   padding: 10px;
   border-radius: 15px;
@@ -709,7 +705,7 @@ form {
 }
 
 .email-input {
-  width: 330px;
+  width: 60vw;
   height: 24px;
   padding: 10px;
   border-radius: 15px;
@@ -731,7 +727,7 @@ form {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   height: 170px;
-  width: 330px;
+  width: 60vw;
   padding: 10px;
   margin: 20px 0 0 0;
   font-family: 'Poppins', sans-serif;
