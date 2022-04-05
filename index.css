@@ -13,7 +13,9 @@
 }
 
 .blur {
-  filter: blur(10px);
+  backdrop-filter: blur(4px);
+  
+          filter: blur(5px);
 }
 
 .toolbar_class {
@@ -89,6 +91,7 @@
   z-index: 1;
   opacity: 0.9;
   overflow: hidden;
+  filter: blur(0px) !important;
 }
 
 .navlist-item-mobile > a {
@@ -100,6 +103,7 @@
   align-items: center;
   color: #fff;
   text-decoration: none;
+  filter: none !important;
 }
 
 .menu_item-mobile {
