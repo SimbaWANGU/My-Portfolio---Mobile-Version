@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;300;400;500&display=swap');
 
-.mobile_background {
+body{
   background: #f6f6f6;
-  width: 131vw;
+}
+
+.mobile_background {
+  width: 100vw;
 }
 
 .home_page_container {
   height: 600px;
-  width: 100%;
+  width: 120%;
   background-color: white;
   border-radius: 1px 1px 1px 100px;
 }
