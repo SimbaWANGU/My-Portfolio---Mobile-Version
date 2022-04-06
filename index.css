@@ -398,9 +398,18 @@ body {
 .popup-window-container{
   background-color: rgba(0, 0, 0, 0.199);
   position: fixed;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   z-index: 99;
+  backdrop-filter: blur(4px);
+}
+
+.popup-window{
+  background-color: white;
+    height: 90%;
+    margin: 16px;
+    margin-top: 40px;
+    border-radius: 8px;
 }
 
 .aboutme_container {
