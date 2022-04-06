@@ -1,64 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;300;400;500&display=swap');
 
-.mobile_background {
-  background: #f6f6f6;
-  width: 482px;
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.home_page_container {
-  height: 600px;
-  width: 482px;
-  background-color: white;
-  border-radius: 1px 1px 1px 100px;
-}
-
-.toolbar_class {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  width: 375px;
-  align-items: center;
-}
-
-.toolbar_class .logo_container {
-  align-items: center;
-  position: relative;
-  left: 12px;
-  width: 40%;
-}
-
-.toolbar_class .logo_container .logo_class {
-  position: static;
-  height: 20px;
-  left: 12px;
-  top: 10px;
+* {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  list-style: none;
+}
+
+body {
+  background: #f6f6f6;
+  margin: 0;
+}
+
+.nav-bar {
+  width: 100vw;
+  height: 5vh;
+  background-color: #fff;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.mobile_background {
+  width: 100vw;
+}
+
+.blur {
+  backdrop-filter: blur(4px);
+  filter: blur(5px);
+}
+
+.logo_container {
+  align-items: center;
+  position: relative;
+  width: 30vw;
+  margin-left: 5vw;
+  height: 3vh;
+}
+
+.logo_class {
+  height: 20px;
+  top: 10px;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
 }
 
-.toolbar_class .option_bar {
-  position: absolute;
-  height: 12px;
-  background: #6070ff;
-  right: -100px;
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  width: 100%;
-}
-
 .span_class {
-  display: block;
-  position: relative;
-  left: 300px;
-  top: 5px;
-  font-size: 20px;
+  float: right;
+  margin-right: 5vw;
+  margin-top: -2.5vh;
 }
 
 .navlist {
@@ -67,10 +57,62 @@
 
 .background {
   position: absolute;
-  width: 375px;
-  height: 480px;
-  top: 119px;
-  margin: 1px 1px 1px 50px;
+  width: 100vw;
+  height: 70vh;
+  background-color: #fff;
+  padding-top: 5vh;
+  border-radius: 0 0 0 100px;
+}
+
+.show {
+  display: none;
+}
+
+.menu_item_container {
+  position: fixed;
+  background: #6070ff;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.9;
+  overflow: hidden;
+  filter: blur(0) !important;
+}
+
+.navlist-item-mobile > a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 100px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  filter: none !important;
+}
+
+.menu_item-mobile {
+  z-index: 2;
+}
+
+.close_icon {
+  width: 10vw;
+  height: 70px;
+  float: right;
+  margin: 10px;
+  left: -50px;
+}
+
+.navlist-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  list-style: none;
+  list-style-type: none;
+  margin-top: 100px;
 }
 
 .background .intro_class {
@@ -78,15 +120,15 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 20px;
-  position: absolute;
-  width: 90%;
+  position: relative;
+  width: 80vw;
   height: 268px;
   margin-top: 10px;
+  margin-left: 20px;
 }
 
 .background .intro_class .identity_text {
-  position: static;
-  width: 95%;
+  width: 80vw;
   height: 30px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -105,9 +147,8 @@
 }
 
 .background .intro_class .description_text {
-  position: static;
-  width: 95%;
-  height: 70%;
+  width: 99%;
+  height: 25vh;
   top: 1px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -122,9 +163,7 @@
 }
 
 .background .intro_class .connect_text {
-  position: static;
-  width: 95%;
-  height: 40px;
+  height: 5vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -134,7 +173,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 6px 1px;
+  margin-top: 5vh;
 }
 
 .background .intro_class .social_media_icons {
@@ -153,65 +192,57 @@
 
 .background .intro_class .social_media_icons .icons {
   margin: 2px 7px;
-  left: -25px;
 }
 
 .left_ellipse {
-  position: relative;
-  top: -80px;
-  left: 1px;
-  transform: scale(-0.4, -0.4);
+  position: absolute;
+  transform: scale(-0.4, -0.4) rotate(-70deg);
+  top: 9vh;
+  left: -2vw;
 }
 
 .right_ellipse {
-  position: relative;
-  top: 50px;
-  left: 170px;
+  position: absolute;
+  left: 60vw;
   transform: scale(-0.4, -0.4) rotate(180deg);
 }
 
-.left_rectangle {
-  position: relative;
-  top: 200px;
-  left: 220px;
-  transform: rotate(20deg);
-}
-
 .bottom_ellipse {
-  position: relative;
-  top: 380px;
+  position: absolute;
+  top: 68vh;
+  left: 20vw;
   transform: scale(-0.4, -0.4);
 }
 
 .circle {
-  position: relative;
-  top: 300px;
-  left: 1px;
+  position: absolute;
+  top: 60vh;
+  left: 70vw;
 }
 
 .rectangle {
-  position: relative;
-  top: -200px;
+  position: absolute;
+  top: 3vh;
   transform: scale(0.3, 0.3);
-  left: 140px;
+  left: 30vw;
 }
 
 .works {
-  height: 500px;
-  margin-top: 200px;
-  width: 482px;
+  position: relative;
+  margin-top: 80vh;
+  width: 100vw;
 }
 
 .works .project {
   background-color: white;
-  width: 430px;
+  width: 90vw;
   border-radius: 40px;
   height: 630px;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
 .grid {
@@ -223,7 +254,7 @@
 .project_img {
   position: relative;
   border-radius: 40px;
-  transform: scale(0.9, 0.8);
+  transform: scale(0.9, 0.7);
   margin-top: 80px;
 }
 
@@ -241,7 +272,7 @@
   margin: 12px 1px;
   left: 20px;
   top: -30px;
-  width: 300px;
+  width: 60vw;
 }
 
 .project_details {
@@ -254,7 +285,7 @@
 
 .project_details .list_items {
   position: relative;
-  left: -25px;
+  left: -7vw;
   margin: 10px;
 }
 
@@ -290,7 +321,7 @@
   margin-left: 20px;
   letter-spacing: 0.01em;
   font-family: 'Poppins', sans-serif;
-  width: 350px;
+  width: 80vw;
 }
 
 .technology_used {
@@ -366,10 +397,9 @@
 
 .aboutme_container {
   position: relative;
-  top: 2500px;
-  width: 480px;
-  left: -5px;
-  height: 1200px;
+  top: 20vh;
+  width: 100vw;
+  height: 160vh;
   background-color: white;
   border-radius: 1px 100px 1px 1px;
 }
@@ -380,7 +410,7 @@
   align-items: flex-start;
   padding: 20px;
   position: absolute;
-  width: 90%;
+  width: 50vw;
   height: 268px;
   margin-top: 90px;
   margin-left: 10px;
@@ -388,7 +418,7 @@
 
 .aboutme_container .aboutme_class .identity_text {
   position: static;
-  width: 95%;
+  width: 90vw;
   height: 30px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -408,7 +438,7 @@
 
 .aboutme_container .aboutme_class .description_text {
   position: static;
-  width: 95%;
+  width: 85vw;
   height: 70%;
   top: 1px;
   font-family: 'Poppins', sans-serif;
@@ -425,7 +455,6 @@
 
 .aboutme_container .aboutme_class .connect_text {
   position: static;
-  width: 95%;
   height: 40px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -491,51 +520,6 @@
   color: #5e6c84;
 }
 
-.technology_and_skills {
-  position: relative;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-}
-
-.technology_and_skills_item {
-  position: relative;
-  margin-left: -60px;
-  text-align: start;
-  width: 410px;
-  object-fit: contain;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.technology_and_skills_text {
-  font-style: normal;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-}
-
-.language_list {
-  border: 1px solid #f1f1f1;
-  background-color: #f1f1f1;
-  border-radius: 8px;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  width: 350px;
-  margin-bottom: 10px;
-  margin-left: -30px;
-  position: relative;
-  top: -500px;
-}
-
-.language_image {
-  border-radius: 50px;
-  margin: 10px;
-}
-
 .language_text {
   letter-spacing: 00.03em;
   font-style: normal;
@@ -547,52 +531,67 @@
   position: relative;
 }
 
-.framework_text {
-  position: relative;
-  top: -500px;
+.language_div {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
 }
 
-.skills_text {
-  position: relative;
-  top: -1000px;
+.languages {
+  background-color: #fff;
 }
 
-.hr_position {
-  position: relative;
-  top: -1010px;
-}
-
-.hr2_position {
-  position: relative;
-  top: -510px;
+.technology_div {
+  background-color: #fff;
+  border: none;
 }
 
 .vector {
   position: relative;
-  transform: scale(0.04, 0.04);
-  left: 80px;
-  top: -280px;
+  height: 15px;
+  width: 15px;
+  left: 43vw;
+  top: 3.5vh;
 }
 
 .vector2 {
   position: relative;
-  transform: scale(0.04, 0.04) rotate(270deg);
-  left: 80px;
-  top: -787px;
+  height: 15px;
+  width: 15px;
+  left: 70vw;
+  top: -4vh;
+  transform: rotate(-90deg);
 }
 
 .vector3 {
   position: relative;
-  transform: scale(0.04, 0.04) rotate(270deg);
-  top: -287px;
-  left: 80px;
+  height: 15px;
+  width: 15px;
+  left: 70vw;
+  top: -4.3vh;
+  transform: rotate(-90deg);
+}
+
+.language_list {
+  position: relative;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  margin-bottom: 2vh;
+  margin-left: -30px;
+}
+
+.language_image {
+  border-radius: 50px;
+  margin: 10px;
 }
 
 .contact_section {
   position: relative;
-  top: 2700px;
-  width: 480px;
-  left: -5px;
+  top: 50vh;
+  width: 100vw;
   height: 800px;
   background-color: #6070ff;
   border-radius: 100px 1px 1px 1px;
@@ -634,7 +633,7 @@ form {
 }
 
 .name-input {
-  width: 330px;
+  width: 60vw;
   height: 24px;
   padding: 10px;
   border-radius: 15px;
@@ -652,7 +651,7 @@ form {
 }
 
 .email-input {
-  width: 330px;
+  width: 60vw;
   height: 24px;
   padding: 10px;
   border-radius: 15px;
@@ -674,7 +673,7 @@ form {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   height: 170px;
-  width: 330px;
+  width: 60vw;
   padding: 10px;
   margin: 20px 0 0 0;
   font-family: 'Poppins', sans-serif;
@@ -722,8 +721,8 @@ form {
 }
 
 @media (min-width: 782px) {
-  .mobile_background {
-    background: #f6f6f6;
+  .header_class {
+    background-color: white;
     width: 100%;
   }
 
@@ -734,21 +733,31 @@ form {
     border-radius: 1px 1px 1px 100px;
   }
 
-  .toolbar_class {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    align-items: center;
-    margin-top: 10px;
+  .nav-bar {
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    padding-top: 5px;
   }
 
-  .toolbar_class .logo_container {
+  .logo_container {
     align-items: center;
     position: relative;
-    left: 120px;
-    width: 40%;
-    top: -10px;
+    width: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 3vh;
+  }
+
+  .logo_class {
+    height: 20px;
+    top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070ff;
   }
 
   .toolbar_class .logo_container .logo_class {
@@ -778,10 +787,11 @@ form {
   .navlist {
     position: relative;
     list-style-type: none;
-    left: 400px;
     display: flex;
     flex-direction: row;
-    top: -5px;
+    top: -5vh;
+    float: right;
+    left: -10vw;
   }
 
   .navlist-item {
@@ -800,23 +810,18 @@ form {
   }
 
   .background {
-    position: absolute;
-    width: 70%;
-    height: 500px;
-    top: 119px;
-    margin: 1px 100px 1px 100px;
-    left: 100px;
+    position: relative;
+    width: 100%;
+    height: 83vh;
   }
 
   .background .intro_class {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
-    position: absolute;
-    width: 90%;
     height: 268px;
-    margin-top: 10px;
+    margin-left: 10vw;
+    position: absolute;
   }
 
   .background .intro_class .identity_text {
@@ -841,7 +846,7 @@ form {
 
   .background .intro_class .description_text {
     position: relative;
-    width: 90%;
+    width: 70%;
     height: 100px;
     top: 1px;
     font-family: 'Poppins', sans-serif;
@@ -859,7 +864,7 @@ form {
 
   .background .intro_class .connect_text {
     position: relative;
-    width: 95%;
+    width: 40%;
     height: 70px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -890,50 +895,53 @@ form {
 
   .left_ellipse {
     position: relative;
-    top: -50px;
+    top: -100vh;
     left: 1px;
     transform: scale(-0.4, -0.4);
   }
 
   .right_ellipse {
     position: relative;
-    top: 200px;
-    left: 940px;
+    top: -70vh;
+    left: 60vw;
     transform: scale(0.8, 0.8) rotate(5deg);
   }
 
   .bottom_ellipse {
     position: relative;
-    top: 400px;
+    top: -40vh;
     transform: scale(-0.4, -0.4);
-    left: 100px;
+    left: 10vw;
   }
 
   .circle {
     position: relative;
-    top: 350px;
-    left: 400px;
+    top: -50vh;
+    left: 30vw;
   }
 
   .rectangle {
     position: relative;
-    top: -50px;
+    top: -100vh;
+    left: 10vw;
     transform: scale(0.4, 0.4);
   }
 
   .works {
-    margin-top: 200px;
-    width: 90%;
+    position: relative;
+    margin-top: 10vh;
+    width: 90vw;
+    height: 400vh;
   }
 
   .works .project {
     background-color: white;
     width: 100%;
+    height: 70%;
     border-radius: 50px;
     justify-content: center;
     display: flex;
     flex-direction: column;
-    height: 70%;
   }
 
   .grid {
@@ -947,7 +955,7 @@ form {
     position: relative;
     border-radius: 40px;
     transform: scale(1, 1);
-    max-width: 55%;
+    max-width: 40vw;
     margin-top: 80px;
     left: 5px;
     top: 160px;
@@ -1098,9 +1106,9 @@ form {
 
   .aboutme_container {
     position: relative;
-    top: 2300px;
+    top: 20vh;
     width: 100%;
-    height: 900px;
+    height: 100vh;
     background-color: white;
     border-radius: 1px 100px 1px 1px;
     margin-right: 0;
@@ -1224,27 +1232,13 @@ form {
     color: #5e6c84;
   }
 
-  .technology_and_skills {
+  .language_div {
     position: relative;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    left: 58%;
-    top: -400px;
-    height: 200px;
+    left: 50vw;
+    top: -60vh;
   }
 
-  .technology_and_skills_item {
-    position: relative;
-    margin-left: -60px;
-    text-align: start;
-    width: 410px;
-    object-fit: contain;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .technology_and_skills_text {
+  .language_text {
     font-style: normal;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -1253,98 +1247,86 @@ form {
     letter-spacing: 0.03em;
   }
 
+  .technology_div {
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    left: 45vw;
+    top: -60vh;
+    background-color: white;
+    border: none;
+  }
+
   .languages {
+    position: relative;
     display: flex;
     flex-direction: row;
+    height: 20vh;
+    margin: 20px;
+    left: -7vw;
+    width: 50vw;
   }
 
   .language_list {
-    border: 1px solid #f1f1f1;
+    position: relative;
     background-color: #f1f1f1;
     border-radius: 8px;
-    list-style-type: none;
     display: flex;
     flex-direction: column;
-    width: 350px;
-    margin: 10px;
-    position: relative;
-    top: -500px;
-    left: -40px;
-    height: 100px;
+    height: 20vh;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 2vh;
+    margin-left: 30px;
   }
 
-  .language_image {
-    position: relative;
-    border-radius: 50px;
-    margin: 10px;
-    transform: scale(0.6, 0.6);
-    left: -20px;
-    top: -20px;
+  .language_list > img {
+    height: 70px;
+    width: 70px;
   }
 
-  .language_text {
-    letter-spacing: 00.03em;
-    font-style: normal;
-    font-family: 'Poppins', sans-serif;
-    line-height: 20px;
-    font-size: 15px;
-    color: #253858;
-    position: relative;
-    top: -50px;
-    left: 10px;
+  .language_list > p {
+    top: -15px;
+    margin-left: 10px;
   }
 
-  .framework_text {
+  .framework_div {
     position: relative;
-    top: -500px;
+    left: 50vw;
+    top: -60vh;
   }
 
-  .skills_text {
+  .framework_div > img {
     position: relative;
-    top: -1000px;
+    left: 30vw;
+    top: -5vh;
   }
 
-  .hr_position {
+  .skills_div {
     position: relative;
-    top: -1010px;
-    width: 500px;
+    left: 50vw;
+    top: -60vh;
   }
 
-  .hr2_position {
+  .skills_div > img {
     position: relative;
-    top: -510px;
-    width: 500px;
+    left: 30vw;
+    top: -5vh;
   }
 
   .vector {
-    position: relative;
-    transform: scale(0.03, 0.03);
-    left: 200px;
-    top: -280px;
-  }
-
-  .vector2 {
-    position: relative;
-    transform: scale(0.03, 0.03) rotate(270deg);
-    left: 200px;
-    top: -787px;
-  }
-
-  .vector3 {
-    position: relative;
-    transform: scale(0.03, 0.03) rotate(270deg);
-    top: -287px;
-    left: 200px;
+    left: 20vw;
+    top: 4.5vh;
   }
 
   .contact_section {
     position: relative;
-    top: 2100px;
     width: 100%;
-    left: -5px;
-    height: 800px;
+    height: 120vh;
     background-color: #6070ff;
     border-radius: 100px 1px 1px 1px;
+    z-index: 1;
+    top: 10vh;
   }
 
   .contact {
