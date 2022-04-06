@@ -10,7 +10,9 @@ body {
   background: #f6f6f6;
   margin: 0;
 }
-
+.hide {
+  display: none;
+}
 .nav-bar {
   width: 100vw;
   height: 5vh;
