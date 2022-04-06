@@ -19,9 +19,3 @@ document.querySelectorAll('.navlist-item-mobile').forEach((link) => {
     });
   });
 });
-
-function scrollEventHandler() {
-  window.scroll(0, window.pageYOffset);
-}
-
-window.addEventListener('scroll', scrollEventHandler, false);

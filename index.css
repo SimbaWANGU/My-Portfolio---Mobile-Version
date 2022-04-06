@@ -1,76 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;300;400;500&display=swap');
 
-html {
-  max-width: 100vw;
-  overflow-x: hidden;
+* {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  list-style: none;
 }
 
 body {
-  max-width: 100%;
   background: #f6f6f6;
+  margin: 0;
+}
+
+.nav-bar {
+  width: 100vw;
+  height: 5vh;
+  background-color: #fff;
+  margin: 0;
+  padding-top: 5px;
 }
 
 .mobile_background {
   width: 100vw;
 }
 
-.home_page_container {
-  height: 600px;
-  width: 100vw;
-  background-color: white;
-  border-radius: 1px 1px 1px 100px;
-  overflow-x: hidden;
-}
-
 .blur {
   backdrop-filter: blur(4px);
   filter: blur(5px);
+  ;
 }
 
-.toolbar_class {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
-  align-items: center;
-}
-
-.toolbar_class .logo_container {
+.logo_container {
   align-items: center;
   position: relative;
-  width: 20%;
+  width: 30vw;
   margin-left: 5vw;
+  height: 3vh;
 }
 
-.toolbar_class .logo_container .logo_class {
-  position: static;
+.logo_class {
   height: 20px;
   top: 10px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
 }
 
-.toolbar_class .option_bar {
-  position: absolute;
-  height: 12px;
-  background: #6070ff;
-  right: -100px;
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  width: 20vw;
-}
-
 .span_class {
-  display: block;
-  position: relative;
-  left: 60vw;
-  top: 5px;
-  font-size: 20px;
+  float: right;
+  margin-right: 5vw;
+  margin-top: -2.5vh;
 }
 
 .navlist {
@@ -80,8 +59,10 @@ body {
 .background {
   position: absolute;
   width: 100vw;
-  height: 480px;
-  top: 119px;
+  height: 70vh;
+  background-color: #fff;
+  padding-top: 5vh;
+  border-radius: 0 0 0 100px;
 }
 
 .show {
@@ -144,11 +125,11 @@ body {
   width: 80vw;
   height: 268px;
   margin-top: 10px;
+  margin-left: 20px;
 }
 
 .background .intro_class .identity_text {
-  position: static;
-  width: 95vw;
+  width: 80vw;
   height: 30px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -167,9 +148,8 @@ body {
 }
 
 .background .intro_class .description_text {
-  position: static;
   width: 99%;
-  height: 70%;
+  height: 25vh;
   top: 1px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -184,8 +164,7 @@ body {
 }
 
 .background .intro_class .connect_text {
-  position: static;
-  height: 40px;
+  height: 5vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -195,7 +174,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 6px 1px;
+  margin-top: 5vh;
 }
 
 .background .intro_class .social_media_icons {
@@ -217,42 +196,42 @@ body {
 }
 
 .left_ellipse {
-  position: relative;
-  top: -80px;
-  left: 1px;
-  transform: scale(-0.4, -0.4);
+  position: absolute;
+  transform: scale(-0.4, -0.4) rotate(-70deg);
+  top: 9vh;
+  left: -2vw;
+
 }
 
 .right_ellipse {
-  position: relative;
-  top: 50px;
-  left: 15vw;
+  position: absolute;
+  left: 60vw;
   transform: scale(-0.4, -0.4) rotate(180deg);
 }
 
 .bottom_ellipse {
-  position: relative;
-  top: 330px;
-  left: 40vw;
+  position: absolute;
+  top: 68vh;
+  left: 20vw;
   transform: scale(-0.4, -0.4);
 }
 
 .circle {
-  position: relative;
-  top: 270px;
-  left: 15vw;
+  position: absolute;
+  top: 60vh;
+  left: 70vw;
 }
 
 .rectangle {
-  position: relative;
-  top: -200px;
+  position: absolute;
+  top: 3vh;
   transform: scale(0.3, 0.3);
-  left: 20vw;
+  left: 30vw;
 }
 
 .works {
-  height: 500px;
-  margin-top: 200px;
+  position: relative; 
+  margin-top: 80vh;
   width: 100vw;
 }
 
@@ -420,9 +399,9 @@ body {
 
 .aboutme_container {
   position: relative;
-  top: 2500px;
+  top: 20vh;
   width: 100vw;
-  height: 1200px;
+  height: 160vh;
   background-color: white;
   border-radius: 1px 100px 1px 1px;
 }
@@ -543,44 +522,68 @@ body {
   color: #5e6c84;
 }
 
-.technology_and_skills {
-  position: relative;
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-}
 
-.technology_and_skills_item {
-  position: relative;
-  margin-left: -60px;
-  text-align: start;
-  width: 80vw;
-  object-fit: contain;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.technology_and_skills_text {
+.language_text {
+  letter-spacing: 00.03em;
   font-style: normal;
   font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 20px;
+  font-size: 18px;
+  color: #253858;
+  top: 8px;
+  position: relative;
+}
+
+.language_div {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+
+.languages {
+  background-color: #fff;
+}
+
+.technology_div {
+  background-color: #fff;
+  border: none;
+}
+
+.vector {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  left: 43vw;
+  top: 3.5vh;
+}
+
+.vector2 {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  left: 70vw;
+  top: -4vh;
+  transform: rotate(-90deg);
+}
+
+.vector3 {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  left: 70vw;
+  top: -4.3vh;
+  transform: rotate(-90deg);
 }
 
 .language_list {
-  border: 1px solid #f1f1f1;
+  position: relative;
   background-color: #f1f1f1;
   border-radius: 8px;
-  list-style-type: none;
   display: flex;
   flex-direction: row;
-  width: 80vw;
-  margin-bottom: 10px;
+  width: 60vw;
+  margin-bottom: 2vh;
   margin-left: -30px;
-  position: relative;
-  top: -500px;
 }
 
 .language_image {
@@ -599,47 +602,9 @@ body {
   position: relative;
 }
 
-.framework_text {
-  position: relative;
-  top: -500px;
-}
-
-.skills_text {
-  position: relative;
-  top: -1000px;
-}
-
-.hr_position {
-  position: relative;
-  top: -1010px;
-}
-
-.hr2_position {
-  position: relative;
-  top: -510px;
-}
-
-.vector {
-  position: relative;
-  transform: scale(0.04, 0.04);
-  top: -280px;
-}
-
-.vector2 {
-  position: relative;
-  transform: scale(0.04, 0.04) rotate(270deg);
-  top: -787px;
-}
-
-.vector3 {
-  position: relative;
-  transform: scale(0.04, 0.04) rotate(270deg);
-  top: -287px;
-}
-
 .contact_section {
   position: relative;
-  top: 2700px;
+  top: 50vh;
   width: 100vw;
   height: 800px;
   background-color: #6070ff;
@@ -770,10 +735,12 @@ form {
 }
 
 @media (min-width: 782px) {
-  .mobile_background {
-    background: #f6f6f6;
+
+  .header_class {
+    background-color: white;
     width: 100%;
   }
+
 
   .home_page_container {
     height: 650px;
@@ -782,21 +749,31 @@ form {
     border-radius: 1px 1px 1px 100px;
   }
 
-  .toolbar_class {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    width: 80%;
-    align-items: center;
-    margin-top: 10px;
+  .nav-bar {
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    padding-top: 5px;
   }
-
-  .toolbar_class .logo_container {
+  
+  .logo_container {
     align-items: center;
     position: relative;
-    left: 120px;
-    width: 40%;
-    top: -10px;
+    width: 10vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    height: 3vh;
+  }
+  
+  .logo_class {
+    height: 20px;
+    top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #6070ff;
   }
 
   .toolbar_class .logo_container .logo_class {
@@ -826,10 +803,11 @@ form {
   .navlist {
     position: relative;
     list-style-type: none;
-    left: 400px;
     display: flex;
     flex-direction: row;
-    top: -5px;
+    top: -5vh;
+    float: right;
+    left: -10vw;
   }
 
   .navlist-item {
@@ -848,23 +826,18 @@ form {
   }
 
   .background {
-    position: absolute;
-    width: 70%;
-    height: 500px;
-    top: 119px;
-    margin: 1px 100px 1px 100px;
-    left: 100px;
+    position: relative;
+    width: 100%;
+    height: 83vh;
   }
 
   .background .intro_class {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
-    position: absolute;
-    width: 90%;
     height: 268px;
-    margin-top: 10px;
+    margin-left: 10vw;
+    position: absolute;
   }
 
   .background .intro_class .identity_text {
@@ -889,7 +862,7 @@ form {
 
   .background .intro_class .description_text {
     position: relative;
-    width: 90%;
+    width: 70%;
     height: 100px;
     top: 1px;
     font-family: 'Poppins', sans-serif;
@@ -907,7 +880,7 @@ form {
 
   .background .intro_class .connect_text {
     position: relative;
-    width: 95%;
+    width: 40%;
     height: 70px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -938,45 +911,49 @@ form {
 
   .left_ellipse {
     position: relative;
-    top: -50px;
+    top: -100vh;
     left: 1px;
     transform: scale(-0.4, -0.4);
   }
 
   .right_ellipse {
     position: relative;
-    top: 200px;
-    left: 940px;
+    top: -70vh;
+    left: 60vw;
     transform: scale(0.8, 0.8) rotate(5deg);
   }
 
   .bottom_ellipse {
     position: relative;
-    top: 400px;
+    top: -40vh;
     transform: scale(-0.4, -0.4);
-    left: 100px;
+    left: 10vw;
   }
 
   .circle {
     position: relative;
-    top: 350px;
-    left: 400px;
+    top: -50vh;
+    left: 30vw;
   }
 
   .rectangle {
     position: relative;
-    top: -50px;
+    top: -100vh;
+    left: 10vw;
     transform: scale(0.4, 0.4);
   }
 
   .works {
-    margin-top: 200px;
-    width: 90%;
+    position: relative;
+    margin-top: 10vh;
+    width: 90vw;
+    height: 400vh;
   }
 
   .works .project {
     background-color: white;
     width: 100%;
+    height: 70%;
     border-radius: 50px;
     justify-content: center;
     display: flex;
@@ -995,7 +972,7 @@ form {
     position: relative;
     border-radius: 40px;
     transform: scale(1, 1);
-    max-width: 55%;
+    max-width: 40vw;
     margin-top: 80px;
     left: 5px;
     top: 160px;
@@ -1146,9 +1123,9 @@ form {
 
   .aboutme_container {
     position: relative;
-    top: 2300px;
+    top: 20vh;
     width: 100%;
-    height: 900px;
+    height: 100vh;
     background-color: white;
     border-radius: 1px 100px 1px 1px;
     margin-right: 0;
@@ -1272,27 +1249,13 @@ form {
     color: #5e6c84;
   }
 
-  .technology_and_skills {
+  .language_div {
     position: relative;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    left: 58%;
-    top: -400px;
-    height: 200px;
+    left: 50vw;
+    top: -60vh;
   }
 
-  .technology_and_skills_item {
-    position: relative;
-    margin-left: -60px;
-    text-align: start;
-    width: 410px;
-    object-fit: contain;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  .technology_and_skills_text {
+  .language_text {
     font-style: normal;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -1301,98 +1264,86 @@ form {
     letter-spacing: 0.03em;
   }
 
+  .technology_div{
+    position: relative;
+    width: 40vw;
+    height: 40vh;
+    left: 45vw;
+    top: -60vh;
+    background-color: white;
+    border: none;
+  }
+
   .languages {
+    position: relative;
     display: flex;
     flex-direction: row;
+    height: 20vh;
+    margin: 20px;
+    left: -7vw;
+    width: 50vw;
   }
 
   .language_list {
-    border: 1px solid #f1f1f1;
+    position: relative;
     background-color: #f1f1f1;
     border-radius: 8px;
-    list-style-type: none;
     display: flex;
     flex-direction: column;
-    width: 350px;
-    margin: 10px;
-    position: relative;
-    top: -500px;
-    left: -40px;
-    height: 100px;
+    height: 20vh;
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 2vh;
+    margin-left: 30px;
   }
 
-  .language_image {
-    position: relative;
-    border-radius: 50px;
-    margin: 10px;
-    transform: scale(0.6, 0.6);
-    left: -20px;
-    top: -20px;
+  .language_list > img {
+    height: 70px;
+    width: 70px;
   }
 
-  .language_text {
-    letter-spacing: 00.03em;
-    font-style: normal;
-    font-family: 'Poppins', sans-serif;
-    line-height: 20px;
-    font-size: 15px;
-    color: #253858;
-    position: relative;
-    top: -50px;
-    left: 10px;
+  .language_list > p {
+    top: -15px;
+    margin-left: 10px;
   }
 
-  .framework_text {
+  .framework_div {
     position: relative;
-    top: -500px;
+    left: 50vw;
+    top: -60vh;
   }
 
-  .skills_text {
+  .framework_div > img {
     position: relative;
-    top: -1000px;
+    left: 30vw;
+    top: -5vh;
   }
 
-  .hr_position {
+  .skills_div {
     position: relative;
-    top: -1010px;
-    width: 500px;
+    left: 50vw;
+    top: -60vh;
   }
 
-  .hr2_position {
+  .skills_div > img {
     position: relative;
-    top: -510px;
-    width: 500px;
+    left: 30vw;
+    top: -5vh;
   }
-
+ 
   .vector {
-    position: relative;
-    transform: scale(0.03, 0.03);
-    left: 200px;
-    top: -280px;
-  }
-
-  .vector2 {
-    position: relative;
-    transform: scale(0.03, 0.03) rotate(270deg);
-    left: 200px;
-    top: -787px;
-  }
-
-  .vector3 {
-    position: relative;
-    transform: scale(0.03, 0.03) rotate(270deg);
-    top: -287px;
-    left: 200px;
+    left: 20vw;
+    top: 4.5vh;
   }
 
   .contact_section {
     position: relative;
-    top: 2100px;
     width: 100%;
-    left: -5px;
-    height: 800px;
+    height: 120vh;
     background-color: #6070ff;
     border-radius: 100px 1px 1px 1px;
+    z-index: 1;
+    top: 10vh;
   }
 
   .contact {
