@@ -894,7 +894,7 @@ form {
   .project-popup-details {
     display: flex;
     flex-direction: row;
-    left: -15%;
+    left: -17%;
     top: -20px;
     position: relative;
   }
@@ -1287,7 +1287,7 @@ form {
     flex-grow: 0;
     margin: 12px 1px;
     left: 59%;
-    top: -54%;
+    top: -55%;
     width: 350px;
   }
 
