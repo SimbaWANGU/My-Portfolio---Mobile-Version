@@ -26,7 +26,6 @@ body {
 .blur {
   backdrop-filter: blur(4px);
   filter: blur(5px);
-  ;
 }
 
 .logo_container {
@@ -200,7 +199,6 @@ body {
   transform: scale(-0.4, -0.4) rotate(-70deg);
   top: 9vh;
   left: -2vw;
-
 }
 
 .right_ellipse {
@@ -230,7 +228,7 @@ body {
 }
 
 .works {
-  position: relative; 
+  position: relative;
   margin-top: 80vh;
   width: 100vw;
 }
@@ -522,7 +520,6 @@ body {
   color: #5e6c84;
 }
 
-
 .language_text {
   letter-spacing: 00.03em;
   font-style: normal;
@@ -589,17 +586,6 @@ body {
 .language_image {
   border-radius: 50px;
   margin: 10px;
-}
-
-.language_text {
-  letter-spacing: 00.03em;
-  font-style: normal;
-  font-family: 'Poppins', sans-serif;
-  line-height: 20px;
-  font-size: 18px;
-  color: #253858;
-  top: 8px;
-  position: relative;
 }
 
 .contact_section {
@@ -735,12 +721,10 @@ form {
 }
 
 @media (min-width: 782px) {
-
   .header_class {
     background-color: white;
     width: 100%;
   }
-
 
   .home_page_container {
     height: 650px;
@@ -757,7 +741,7 @@ form {
     margin: 0;
     padding-top: 5px;
   }
-  
+
   .logo_container {
     align-items: center;
     position: relative;
@@ -766,7 +750,7 @@ form {
     margin-right: 5vw;
     height: 3vh;
   }
-  
+
   .logo_class {
     height: 20px;
     top: 10px;
@@ -958,7 +942,6 @@ form {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    height: 70%;
   }
 
   .grid {
@@ -1264,7 +1247,7 @@ form {
     letter-spacing: 0.03em;
   }
 
-  .technology_div{
+  .technology_div {
     position: relative;
     width: 40vw;
     height: 40vh;
@@ -1330,7 +1313,7 @@ form {
     left: 30vw;
     top: -5vh;
   }
- 
+
   .vector {
     left: 20vw;
     top: 4.5vh;
