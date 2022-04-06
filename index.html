@@ -11,6 +11,56 @@
 </head>
 
 <body>
+    <div class="popup-window-container hide">
+        <div class="popup-window">
+          <div class="project-heading">
+            <h2 class="popup_title"></h2>
+            <span class="popup_close_icon">
+              <img src="./assets/close_popup.png" class="popup-close" alt="close icon">
+            </span>
+          </div>
+          <ul class="project-popup-details">
+            <li class="list_items">
+              <p class="list_items_text" id="canopy_text"></p>
+            </li>
+            <li class="list_items">
+                <img src="./assets/Counter.png" alt="counter" class="counter_class">
+            </li>
+            <li class="list_items">
+                <p class="list_items_text_other" id="dev-type"></p>
+            </li>
+            <li class="list_items">
+                <img src="./assets/Counter.png" alt="counter" class="counter_class">
+            </li>
+            <li class="list_items">
+                <p class="list_items_text_other" id="date"></p>
+            </li>
+          </ul>
+          <img class="popup_image" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsupport.zoom.us%2Fhc%2Fen-us%2Farticles%2F208362326-Video-not-working-on-Lenovo-devices&psig=AOvVaw0Kb0GkmopL4hCKlnDDxaoG&ust=1649354223572000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCIDprLaBgPcCFQAAAAAdAAAAABAD" alt="project image">
+          <p class="project-popup-paragraph"></p>
+          <ul class="popup-technology technology_used">
+            <li class="technology">
+                <p class="technology_text" id="html_text"></p>
+            </li>
+            <li class="technology">
+                <p class="technology_text" id="css_text"></p>
+            </li>
+            <li class="technology">
+                <p class="technology_text" id="js_text"></p>
+            </li>
+        </ul>
+          <div class="popup-buttons">
+            <a class="project_button" id="live-link">
+              See Live
+              <img src="./assets/live.png" class="popup-button-img" alt="live link button">
+            </a>
+            <a class="project_button" id="source-link">
+              See Source
+              <img src="./assets/source.png" class="popup-button-img" alt="source link button">
+            </a>
+          </div>
+        </div>
+      </div>
   <header class="header_class">
     <nav class="nav-bar mobile_background">
       <div class="logo_container">
@@ -33,7 +83,7 @@
           </li>
       </ul>
     </nav>
-    <div class="menu_item_container show mobile_background">
+    <div class="menu_item_container show mobile_background hide-desktop">
       <span class="close_icon">
         <img src="./assets/close.png" alt="close icon">
       </span> 
@@ -51,7 +101,9 @@
       </ul>
       </div>
   </div>
+  
   </header>
+
 
   <section class="background mobile_background">
     <div class="intro_class">
@@ -96,146 +148,7 @@
   <img src="./assets/Rectangle_5.png" class="rectangle" alt="rectangle">
 
   <section class="works grid mobile_background" id="Portfolio">
-    <div class="project">
-        <img src="./assets/Snapshoot_Portfolio.png" class="project_img" alt="project_image">
-        <h2 class="project_title">Tonic</h2>
-        <ul class="project_details">
-            <li class="list_items">
-                <p class="list_items_text">CANOPY</p>
-            </li>
-            <li class="list_items">
-                <img src="./assets/Counter.png" alt="counter" class="counter_class">
-            </li>
-            <li class="list_items">
-                <p class="list_items_text_other">Back End Dev</p>
-            </li>
-            <li class="list_items">
-                <img src="./assets/Counter.png" alt="counter" class="counter_class">
-            </li>
-            <li class="list_items">
-                <p class="list_items_text_other">2015</p>
-            </li>
-        </ul>
-        <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups required</p>
-        <ul class="technology_used">
-            <li class="technology">
-                <p class="technology_text">html</p>
-            </li>
-            <li class="technology">
-                <p class="technology_text">css</p>
-            </li>
-            <li class="technology">
-                <p class="technology_text">javascript</p>
-            </li>
-        </ul>
-        <button class="project_button" type="submit">See Project</button>
-    </div>
-
-    <div class="project">
-        <img src="./assets/Snapshoot_Portfolio1.png" class="project_img" alt="project_image">
-        <h2 class="project_title">Multi-Post Stories</h2>
-        <ul class="project_details">
-            <li class="list_items">
-                <p class="list_items_text">CANOPY</p>
-            </li>
-            <li class="list_items">
-                <img src="./assets/Counter.png" alt="counter" class="counter_class">
-            </li>
-            <li class="list_items">
-                <p class="list_items_text_other">Back End Dev</p>
-            </li>
-            <li class="list_items">
-                <img src="./assets/Counter.png" alt="counter" class="counter_class">
-            </li>
-            <li class="list_items">
-                <p class="list_items_text_other">2015</p>
-            </li>
-        </ul>
-        <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups required</p>
-        <ul class="technology_used">
-            <li class="technology">
-                <p class="technology_text">html</p>
-            </li>
-            <li class="technology">
-                <p class="technology_text">css</p>
-            </li>
-            <li class="technology">
-                <p class="technology_text">javascript</p>
-            </li>
-        </ul>
-        <button class="project_button" type="submit">See Project</button>
-    </div>
-
-    <div class="project">
-        <img src="./assets/Snapshoot_Portfolio2.png" class="project_img" alt="project_image">
-        <h2 class="project_title">Tonic</h2>
-        <ul class="project_details">
-            <li class="list_items">
-                <p class="list_items_text">CANOPY</p>
-            </li>
-            <li class="list_items">
-                <img src="./assets/Counter.png" alt="counter" class="counter_class">
-            </li>
-            <li class="list_items">
-                <p class="list_items_text_other">Back End Dev</p>
-            </li>
-            <li class="list_items">
-                <img src="./assets/Counter.png" alt="counter" class="counter_class">
-            </li>
-            <li class="list_items">
-                <p class="list_items_text_other">2015</p>
-            </li>
-        </ul>
-        <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups required</p>
-        <ul class="technology_used">
-            <li class="technology">
-                <p class="technology_text">html</p>
-            </li>
-            <li class="technology">
-                <p class="technology_text">css</p>
-            </li>
-            <li class="technology">
-                <p class="technology_text">javascript</p>
-            </li>
-        </ul>
-        <button class="project_button" type="submit">See Project</button>
-    </div>
-
-    <div class="project">
-        <img src="./assets/Snapshoot_Portfolio3.png" class="project_img" alt="project_image">
-        <h2 class="project_title">Multi-Post Stories</h2>
-        <ul class="project_details">
-            <li class="list_items">
-                <p class="list_items_text">CANOPY</p>
-            </li>
-            <li class="list_items">
-                <img src="./assets/Counter.png" alt="counter" class="counter_class">
-            </li>
-            <li class="list_items">
-                <p class="list_items_text_other">Back End Dev</p>
-            </li>
-            <li class="list_items">
-                <img src="./assets/Counter.png" alt="counter" class="counter_class">
-            </li>
-            <li class="list_items">
-                <p class="list_items_text_other">2015</p>
-            </li>
-        </ul>
-        <p class="project_description">A daily selection of privately personalized reads; no accounts or sign-ups required</p>
-        <ul class="technology_used">
-            <li class="technology">
-                <p class="technology_text">html</p>
-            </li>
-            <li class="technology">
-                <p class="technology_text">css</p>
-            </li>
-            <li class="technology">
-                <p class="technology_text">javascript</p>
-            </li>
-        </ul>
-        <button class="project_button" type="submit">See Project</button>
-    </div>
-</section>
+  </section>
 
 <section class="aboutme_container mobile_background" id="About">
   <div class="aboutme_class">
