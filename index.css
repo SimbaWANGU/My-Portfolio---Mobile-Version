@@ -412,6 +412,103 @@ body {
     border-radius: 8px;
 }
 
+.project-heading {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+.popup_title {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 20px 1px 0 0;
+  left: 20px;
+  width: 20%;
+}
+
+.popup_close_icon {
+  position: relative;
+  width: 10vw;
+  height: 70px;
+  top: 47%;
+  left: 67%;
+}
+
+.project-popup-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  left: 20px;
+  top: -20px;
+  position: relative;
+}
+
+.project-popup-details .list_items {
+  position: relative;
+  left: -7vw;
+  margin: 5px;
+}
+
+.project-popup-details .list_items .list_items_text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.project-popup-details .list_items .list_items_text_other {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.project-popup-details .list_items .counter_class {
+  position: relative;
+  top: 15px;
+}
+
+.popup_image {
+  margin-left: 9%;
+  margin-right: 8%;
+}
+
+.project-popup-paragraph {
+  position: relative;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+  color: #344563;
+  margin-left: 35px;
+  letter-spacing: 0.01em;
+  font-family: 'Poppins', sans-serif;
+  width: 80vw;
+}
+
+.popup-technology {
+  top: 0;
+  margin-left: 10px;
+}
+
+.popup-buttons{
+  position: relative;
+  top: 20%;
+}
+
+.popup-button-img {
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
 .aboutme_container {
   position: relative;
   top: 20vh;
@@ -744,6 +841,142 @@ form {
 
   .blur {
     filter: none;
+  }
+
+  .popup-window{
+    background-color: white;
+    height: 98%;
+    margin: 5px;
+    border-radius: 8px;
+    width: 55%;
+    left: 20%;
+    position: relative;
+  }
+  
+  .project-heading {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .popup_title {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    margin: 20px 1px 0 0;
+    left: 20px;
+    width: 20%;
+  }
+  
+  .popup_close_icon {
+    position: relative;
+    width: 10vw;
+    height: 70px;
+    top: 47%;
+    left: 67%;
+  }
+  
+  .project-popup-details{
+    display: flex;
+    flex-direction: row;
+    left: -14%;
+    top: -10px;
+    position: relative;
+  }
+  
+  .project-popup-details .list_items {
+    position: relative;
+    left: -7vw;
+    margin: 5px 5px 0 5px;
+  }
+  
+  .project-popup-details .list_items .list_items_text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    color: #344563;
+  }
+  
+  .project-popup-details .list_items .list_items_text_other {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    color: #7a869a;
+  }
+  
+  .project-popup-details .list_items .counter_class {
+    position: relative;
+    top: 15px;
+  }
+  
+  .popup_image {
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 60%;
+    width: 94%;
+  }
+  
+  .project-popup-paragraph {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    font-style: normal;
+    color: #344563;
+    margin-left: 35px;
+    letter-spacing: 0.01em;
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+  }
+  
+  .popup-window .popup-technology {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    left: 50%;
+    top: -16%;
+    width: 300px;
+  }
+  
+  .popup-buttons{
+    position: relative;
+    top: -17%;
+    left: -3.5%;
+  }
+
+  .popup-buttons .project_button {
+    height: 3%;
+    width: 18%;
+    padding-bottom: 18px;
+    position: relative;
+    border: 1px solid #6070ff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    align-items: center;
+    background-color: white;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #396df2;
+    transition-duration: 0.4s;
+    
+  }
+  
+  .popup-button-img {
+    position: relative;
+    top: 3px;
+    left: 3px;
   }
 
   .header_class {
