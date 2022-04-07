@@ -202,8 +202,8 @@ const Msg = document.querySelector('#Error-msg');
 const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
 
 Form.addEventListener('submit', (e) => {
-  if(!reg.test(Email.value)){
+  if (!reg.test(Email.value)){
     Msg.innerHTML = 'Error: Email should be lowercase';
     e.preventDefault();
-  } 
-})
+  }
+});
