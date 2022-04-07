@@ -221,10 +221,11 @@
   <div class="contact">
       <h2 class="contactme_header">Contact me</h2>
       <p class="contact_message">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-      <form action="https://formspree.io/f/myyopabl" method="POST">
+      <form class="form-validation" action="https://formspree.io/f/myyopabl" method="POST">
           <input class="name-input" type='text' name='fname' placeholder="Simba" maxlength="30" required/>
-          <input class="email-input" type="email" name="email" placeholder="simbawangulu@gmail.com" required />
+          <input id="email" class="email-input" type="email" name="email" placeholder="simbawangulu@gmail.com" required />
           <textarea class="message-input" placeholder="Write your message here" maxlength="500" required></textarea>
+          <kbd id="Error-msg"></kbd>
           <button type="submit" class="submit_button">Get It Touch</button>
       </form>
   </div>

@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const projects = [{
   id: 1,
   name: 'Tonic',
@@ -170,7 +172,6 @@ projects.forEach((project) => {
   div.appendChild(ul2);
   div.appendChild(button);
   WorkSection.appendChild(div);
-  openModal(project.id);
 });
 
 document.querySelector('.span_class').addEventListener('click', () => {
@@ -193,4 +194,16 @@ document.querySelectorAll('.navlist-item-mobile').forEach((link) => {
       section.classList.toggle('blur');
     });
   });
+});
+
+const Form = document.querySelector('.form-validation');
+const Email = document.getElementById('email');
+const Msg = document.querySelector('#Error-msg');
+const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
+
+Form.addEventListener('submit', (e) => {
+  if (!reg.test(Email.value)) {
+    Msg.innerHTML = 'Error: Email should be lowercase';
+    e.preventDefault();
+  }
 });
