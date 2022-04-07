@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 const projects = [{
   id: 1,
   name: 'Tonic',
@@ -170,7 +172,6 @@ projects.forEach((project) => {
   div.appendChild(ul2);
   div.appendChild(button);
   WorkSection.appendChild(div);
-  openModal(project.id);
 });
 
 document.querySelector('.span_class').addEventListener('click', () => {
