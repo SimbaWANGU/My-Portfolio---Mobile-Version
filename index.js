@@ -199,6 +199,8 @@ document.querySelectorAll('.navlist-item-mobile').forEach((link) => {
 const Form = document.querySelector('.form-validation');
 const Email = document.getElementById('email');
 const Msg = document.querySelector('#Error-msg');
+const Name = document.getElementById('name');
+const contactMessage = document.getElementById('contactMessage');
 const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
 
 Form.addEventListener('submit', (e) => {
@@ -206,4 +208,37 @@ Form.addEventListener('submit', (e) => {
     Msg.innerHTML = 'Error: Email should be lowercase';
     e.preventDefault();
   }
+});
+
+function Save() {
+  const collectedData = {
+    name: Name.value,
+    email: Email.value,
+    comment: contactMessage.value,
+  };
+  localStorage.setItem('savedData', JSON.stringify(collectedData));
+}
+
+if (localStorage.getItem('savedData') === null) {
+  const savedData = {
+    name: '',
+    email: '',
+    comment: '',
+  };
+  localStorage.setItem('savedData', JSON.stringify(savedData));
+} else {
+  const data = JSON.parse(localStorage.getItem('savedData'));
+  Email.value = data.email;
+  Name.value = data.name;
+  contactMessage.value = data.comment;
+}
+
+Email.addEventListener('change', () => {
+  Save();
+});
+Name.addEventListener('change', () => {
+  Save();
+});
+contactMessage.addEventListener('change', () => {
+  Save();
 });
