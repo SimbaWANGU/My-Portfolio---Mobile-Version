@@ -210,15 +210,6 @@ Form.addEventListener('submit', (e) => {
   }
 });
 
-function Save() {
-  const collectedData = {
-    name: Name.value,
-    email: Email.value,
-    comment: contactMessage.value,
-  };
-  localStorage.setItem('savedData', JSON.stringify(collectedData));
-}
-
 if (localStorage.getItem('savedData') === null) {
   const savedData = {
     name: '',
