@@ -219,7 +219,6 @@ function Save() {
   localStorage.setItem('savedData', JSON.stringify(collectedData));
 }
 
-
 if (localStorage.getItem('savedData') === null) {
   const savedData = {
     name: '',
