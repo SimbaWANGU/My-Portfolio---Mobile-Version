@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+kbd {
+  color: rgb(93, 3, 3) !important;
+}
+
 .hide {
   display: none;
 }

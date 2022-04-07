@@ -195,3 +195,8 @@ document.querySelectorAll('.navlist-item-mobile').forEach((link) => {
     });
   });
 });
+
+const Form = document.querySelector('.form-validation');
+const Email = document.getElementById('email');
+const Msg = document.querySelector('#Error-msg');
+const reg = /^[a-z0-9_-]+@[a-z0-9]+\.[a-z]+\.?[a-z]+/g;
